@@ -1,0 +1,12 @@
+/* Add application styles & imports to this file! */
+@import '@angular/cdk/overlay-prebuilt.css';
+@import '@angular/cdk/a11y-prebuilt.css';
+
+@import "@clr/ui/clr-ui.min.css";
+@import "@clr/icons/clr-icons.min.css";
+@import "@ng-select/ng-select/themes/default.theme.css";
+
+
+body {
+  padding: 10px;
+}
