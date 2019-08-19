@@ -46,7 +46,7 @@ export class AppComponent implements AfterViewInit, OnDestroy {
     constructor(private readonly dataService: DataService) {}
 
     ngAfterViewInit(): void {
-        //Subscribe to value changes
+        //Subscribe to value changes, just for demo purposes
         this.hlcClrForm.formGroup.valueChanges
             .pipe(takeUntil(this.destroy$))
             .subscribe(val => console.log(JSON.stringify(val, null, 2)));
