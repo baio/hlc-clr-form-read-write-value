@@ -37,8 +37,7 @@ const definition: ClrFormLayouts.ClrFormLayout = {
 })
 export class AppComponent implements AfterViewInit, OnDestroy {
     private readonly destroy$ = new Subject();
-
-    // This is for the sample info, ignore it
+    
     definition = definition;
 
     @ViewChild(HlcClrFormComponent, { static: false }) hlcClrForm: HlcClrFormComponent;
